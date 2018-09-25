@@ -27,7 +27,7 @@
                         <div class="single-features">
                             <div class="features-image">
                                 <a href="#">
-                                    <img src="{{ asset("assets/frontend/images/business-advisor.jpg") }}" alt="business advisor" />
+                                    <img src="{{ secure_asset("assets/frontend/images/business-advisor.jpg") }}" alt="business advisor" />
                                 </a>
                             </div>
                             <div class="features-info">
@@ -47,7 +47,7 @@
                         <div class="single-features">
                             <div class="features-image">
                                 <a href="#">
-                                    <img src="{{ asset("assets/frontend/images/market-analyze.jpg")}}" alt="Business Market Analyze" />
+                                    <img src="{{ secure_asset("assets/frontend/images/market-analyze.jpg")}}" alt="Business Market Analyze" />
                                 </a>
                             </div>
                             <div class="features-info">
@@ -67,7 +67,7 @@
                         <div class="single-features">
                             <div class="features-image">
                                 <a href="#">
-                                    <img src="{{ asset("assets/frontend/images/consultation.jpg")}}" alt="Business Consultation" />
+                                    <img src="{{ secure_asset("assets/frontend/images/consultation.jpg")}}" alt="Business Consultation" />
                                 </a>
                             </div>
                             <div class="features-info">
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="home-about-right">
-                            <img src="{{ asset("assets/frontend/images/business-meeting.jpg")}}" alt="business man" />
+                            <img src="{{ secure_asset("assets/frontend/images/business-meeting.jpg")}}" alt="business man" />
                         </div>
                     </div>
                 </div>
@@ -373,8 +373,8 @@
                             <div class="project_row">
                                 <div class="col-md-3 single_portfolio col-sm-6">
                                     <div class="project_list">
-                                        <a href="{{ asset("assets/frontend/images/project-1.jpg")}}" class="gallery-lightbox">
-                                            <img src="{{ asset("assets/frontend/images/project-1.jpg")}}" alt="portfolio 1" />
+                                        <a href="{{ secure_asset("assets/frontend/images/project-1.jpg")}}" class="gallery-lightbox">
+                                            <img src="{{ secure_asset("assets/frontend/images/project-1.jpg")}}" alt="portfolio 1" />
                                             <div class="project-overlay">
                                                 <div class="project-overlay-inner">
                                                     <h3>Business Planning</h3>
@@ -385,8 +385,8 @@
                                 </div>
                                 <div class="col-md-3 single_portfolio col-sm-6">
                                     <div class="project_list">
-                                        <a href="{{ asset("assets/frontend/images/project-2.jpg")}}" class="gallery-lightbox">
-                                            <img src="{{ asset("assets/frontend/images/project-2.jpg")}}" alt="portfolio 1" />
+                                        <a href="{{ secure_asset("assets/frontend/images/project-2.jpg")}}" class="gallery-lightbox">
+                                            <img src="{{ secure_asset("assets/frontend/images/project-2.jpg")}}" alt="portfolio 1" />
                                             <div class="project-overlay">
                                                 <div class="project-overlay-inner">
                                                     <h3>Progress Tracking</h3>
@@ -397,8 +397,8 @@
                                 </div>
                                 <div class="col-md-3 single_portfolio col-sm-6">
                                     <div class="project_list">
-                                        <a href="{{ asset("assets/frontend/images/project-3.jpg")}}" class="gallery-lightbox">
-                                            <img src="{{ asset("assets/frontend/images/project-3.jpg")}}" alt="portfolio 1" />
+                                        <a href="{{ secure_asset("assets/frontend/images/project-3.jpg")}}" class="gallery-lightbox">
+                                            <img src="{{ secure_asset("assets/frontend/images/project-3.jpg")}}" alt="portfolio 1" />
                                             <div class="project-overlay">
                                                 <div class="project-overlay-inner">
                                                     <h3>Risk Management</h3>
@@ -409,8 +409,8 @@
                                 </div>
                                 <div class="col-md-3 single_portfolio col-sm-6">
                                     <div class="project_list">
-                                        <a href="{{ asset("assets/frontend/images/project-3.jpg")}}" class="gallery-lightbox">
-                                            <img src="{{ asset("assets/frontend/images/roadmap.jpeg")}}" alt="portfolio 1" />
+                                        <a href="{{ secure_asset("assets/frontend/images/project-3.jpg")}}" class="gallery-lightbox">
+                                            <img src="{{ secure_asset("assets/frontend/images/roadmap.jpeg")}}" alt="portfolio 1" />
                                             <div class="project-overlay">
                                                 <div class="project-overlay-inner">
                                                     <h3>Road Map to Success</h3>
@@ -501,7 +501,7 @@
                         <div class="team-slider">
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -518,7 +518,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt3.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt3.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -535,7 +535,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt2.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt2.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -552,7 +552,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt4.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt4.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -569,7 +569,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -606,7 +606,7 @@
                                 </div>
                                 <div class="testimonial-author">
                                     <div class="testimonial-author-img">
-                                        <img src="{{ asset("assets/frontend/images/testimonial-1.jpg")}}" alt="testimonial 1" />
+                                        <img src="{{ secure_asset("assets/frontend/images/testimonial-1.jpg")}}" alt="testimonial 1" />
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h3>Jhon Smith</h3>
@@ -620,7 +620,7 @@
                                 </div>
                                 <div class="testimonial-author">
                                     <div class="testimonial-author-img">
-                                        <img src="{{ asset("assets/frontend/images/agnt3.jpg")}}" alt="testimonial 1" />
+                                        <img src="{{ secure_asset("assets/frontend/images/agnt3.jpg")}}" alt="testimonial 1" />
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h3>Daniel Riljic</h3>
@@ -634,7 +634,7 @@
                                 </div>
                                 <div class="testimonial-author">
                                     <div class="testimonial-author-img">
-                                        <img src="{{ asset("assets/frontend/images/agnt1.jpg")}}" alt="testimonial 1" />
+                                        <img src="{{ secure_asset("assets/frontend/images/agnt1.jpg")}}" alt="testimonial 1" />
                                     </div>
                                     <div class="testimonial-author-info">
                                         <h3>Dr. Alexander Bradel</h3>

@@ -25,7 +25,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="contact-form-box">
-                        <h2><img src="{{ asset("assets/frontend/images/like-icon.png")}}" alt="thanks image" style="width:100px;border-width:0px;" /></h2>
+                        <h2><img src="{{ secure_asset("assets/frontend/images/like-icon.png")}}" alt="thanks image" style="width:100px;border-width:0px;" /></h2>
                         <h2 id="success-message">Cancellation</h2>
                         <h3 id="success-details">Subscription is canceled successfully.</h3>
                         <h4 style="text-align: center">We've sent an account activation email to you at, please check your inbox for an account activation link from GoalHack.</h4>

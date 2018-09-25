@@ -34,7 +34,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="about-page-right">
-                            <img src="{{ asset("assets/frontend/images/bg-macbook.png")}}" alt="about" />
+                            <img src="{{ secure_asset("assets/frontend/images/bg-macbook.png")}}" alt="about" />
                             <a class="popup-youtube" href="https://www.youtube.com/watch?v=k-R6AFn9-ek">
                                 <i class="flaticon-play-button"></i>
                             </a>
@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="mission-area-right">
-                            <img src="{{ asset("assets/frontend/images/2.png")}}" alt="mission image" />
+                            <img src="{{ secure_asset("assets/frontend/images/2.png")}}" alt="mission image" />
                         </div>
                     </div>
                 </div>
@@ -105,7 +105,7 @@
                         <div class="team-slider">
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -122,7 +122,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt3.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt3.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -139,7 +139,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt2.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt2.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -156,7 +156,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt4.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt4.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
@@ -173,7 +173,7 @@
                             </div>
                             <div class="single-team-member">
                                 <div class="team-image">
-                                    <img src="{{ asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
+                                    <img src="{{ secure_asset("assets/frontend/images/agnt1.jpg")}}" alt="team 1" />
                                 </div>
                                 <div class="team-info-one">
                                     <div class="team-overlay-one">
