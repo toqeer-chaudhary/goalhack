@@ -1,6 +1,6 @@
 <?php
 
-Route::middleware(['web'])->group(function () {
+Route::middleware(['web','use.ssl'])->group(function () {
     /**
      * ===========================================================================
      * Public Routes

@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\UseSSL;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
@@ -61,6 +62,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'userResourcesChecking' => \App\Http\Middleware\UserResourceChecking::class,
         'superAdmin' => \App\Http\Middleware\SuperAdmin::class,
-
+        'use.ssl' => UseSSL::class,
     ];
+
 }
