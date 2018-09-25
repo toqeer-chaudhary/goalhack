@@ -7,7 +7,7 @@
                     <div class="single-footer-widget footer-logo-widget">
                         <div class="footer-logo">
                             <a href="../../demos/lesun-item/index.html">
-                                <img src="{{ asset("assets/frontend/images/goalhack-logo.png")}}" alt="footer logo" id="footer-logo" />
+                                <img src="{{ secure_asset("assets/frontend/images/goalhack-logo.png")}}" alt="footer logo" id="footer-logo" />
                             </a>
                         </div>
                         <div class="footer-widget-text">

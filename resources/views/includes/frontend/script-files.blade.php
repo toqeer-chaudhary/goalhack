@@ -39,6 +39,6 @@
 <script src="{{secure_asset("assets/frontend/js/country.js")}}"></script>
 
 {{--For Custom Loaing--}}
-<script type="text/javascript" src="{{"assets/backend/plugins/Customizable-Loading-Modal-Plugin/js/modal-loading.js"}}"></script>
+<script type="text/javascript" src="{{secure_asset("assets/backend/plugins/Customizable-Loading-Modal-Plugin/js/modal-loading.js")}}"></script>
 
 

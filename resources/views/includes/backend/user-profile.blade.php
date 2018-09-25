@@ -1,7 +1,7 @@
 <div class="nav-item dropdown ks-user">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
                  <span class="ks-avatar">
-                     <img src="{{asset("assets/backend/images/users/".Auth::user()->image)}}" width="36" height="36">
+                     <img src="{{secure_asset("assets/backend/images/users/".Auth::user()->image)}}" width="36" height="36">
                  </span>
         <span class="ks-info">
                      <span class="ks-name">{{ Auth::user()->name }}</span>

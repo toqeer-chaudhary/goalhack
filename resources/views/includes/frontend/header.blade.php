@@ -41,7 +41,7 @@
                 <div class="col-md-3">
                     <div class="site-logo">
                         <a href={{url('index')}}>
-                            <img size="32x32" src="{{ asset("assets/frontend/images/goalHack-logo.png") }}" alt="site logo" />
+                            <img size="32x32" src="{{ secure_asset("assets/frontend/images/goalHack-logo.png") }}" alt="site logo" />
                         </a>
                     </div>
                     <!-- Responsive Menu Start -->

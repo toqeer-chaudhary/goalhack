@@ -1,6 +1,6 @@
 <li class="nav-item ks-user dropdown">
     <a class="nav-link"  href="#">
-        <img src="{{asset("assets/backend/images/users/".Auth::user()->image)}}"
+        <img src="{{secure_asset("assets/backend/images/users/".Auth::user()->image)}}"
              width="36" height="36" class="ks-avatar rounded-circle">
         <div class="ks-info">
             <div class="ks-name">{{ Auth::user()->name }}</div>

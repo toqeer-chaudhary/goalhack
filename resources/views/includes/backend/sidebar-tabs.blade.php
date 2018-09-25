@@ -2,7 +2,7 @@
 
 <li class="nav-item ks-user dropdown">
     <a class="nav-link"  href="#">
-        <img src="{{asset("assets/backend/images/avatars/avatar-12.jpg")}}"
+        <img src="{{secure_asset("assets/backend/images/avatars/avatar-12.jpg")}}"
              width="36" height="36" class="ks-avatar rounded-circle">
         <div class="ks-info">
 
