@@ -1,0 +1,708 @@
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.header-top-left>p {
+		margin-right: 5px
+	}
+	.mainmenu ul li {
+		margin: 0 8px
+	}
+	.mainmenu ul li a {
+		font-size: 13px
+	}
+	.quote-box {
+		width: 100%
+	}
+	.lesun-choose-us-area:before {
+		width: 40%
+	}
+	.choose-us-wrap {
+		width: 60%;
+		padding: 0 20px
+	}
+	.da-thumbs li a div h3 {
+		font-size: 16px
+	}
+	.counter-icon {
+		width: 40px;
+		font-size: 24px
+	}
+	.post-header h3 {
+		font-size: 17px
+	}
+	.subscribe-right>form {
+		width: 60%
+	}
+	.mission-area-right>img {
+		margin-top: 25px
+	}
+	.mission-box-one,
+	.mission-box-two,
+	.mission-box-three {
+		padding-top: 10px;
+		padding-bottom: 10px
+	}
+	.single_project_wrap_left>ul {
+		float: none;
+		width: 100%
+	}
+	.login-box {
+		width: 55%
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.consultation-btn {
+		display: none
+	}
+	.site-logo {
+		display: block;
+		text-align: center;
+		margin: 10px auto 0
+	}
+	.mainmenu ul {
+		text-align: center
+	}
+	.lesun-main-slide {
+		height: 480px
+	}
+	.slider-text h2 {
+		font-size: 40px
+	}
+	.features-heading>h2 {
+		font-size: 22px
+	}
+	.home-about-right {
+		margin-top: 30px
+	}
+	.quote-box {
+		width: 100%
+	}
+	.single-service-item {
+		width: 70%;
+		margin: 0 auto 30px
+	}
+	.lesun-choose-us-area:before {
+		display: none
+	}
+	.choose-us-wrap {
+		float: none;
+		width: 100%;
+		padding: 0
+	}
+	.counter-text {
+		width: 100%
+	}
+	.lesun-faqs-testimonial-area .lesun-site-heading-primary {
+		text-align: center
+	}
+	.margin-top {
+		margin-top: 50px
+	}
+	.subscribe-right>form {
+		width: 75%
+	}
+	.mission-area-right {
+		display: none
+	}
+	.header-top-left>p:last-child {
+		display: none
+	}
+	.panel-body-text {
+		margin-top: 20px
+	}
+	.portfolio_page div.project_list {
+		float: none;
+		width: 60%;
+		margin: 0 auto 30px
+	}
+	.single-project-image-bg {
+		display: none
+	}
+	.login-box {
+		width: 75%
+	}
+	#no_margin {
+		margin-top: 0
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.header-top-left {
+		text-align: center
+	}
+	.header-top-social {
+		display: inline-block;
+		float: none;
+	}
+	.header-top-right {
+		text-align: center
+	}
+	.search-form {
+		right: auto;
+		padding: 15px
+	}
+	.search-form>form {
+		height: 30px;
+	}
+	.search-form button {
+		padding: 0 10px
+	}
+	.mainmenu {
+		display: none
+	}
+	.lesun-responsive-menu {
+		display: block
+	}
+	.consultation-btn {
+		display: none
+	}
+	.site-logo img {
+		width: 150px
+	}
+	.menu-span {
+		display: none
+	}
+	.lesun-main-slide {
+		height: 365px
+	}
+	.slider-text {
+		width: 100%
+	}
+	.slider-text h2 {
+		font-size: 24px
+	}
+	.slider-text p,
+	.quote-box>p {
+		font-size: 14px;
+		line-height: 24px
+	}
+	.features-heading>h2 {
+		font-size: 20px;
+		line-height: 30px
+	}
+	.lesun-site-heading>h2,
+	.lesun-site-heading-primary>h2 {
+		font-size: 22px
+	}
+	.home-about-right {
+		margin-top: 30px
+	}
+	.quote-box {
+		width: 100%
+	}
+	.quote-box>h2 {
+		font-size: 24px
+	}
+	.service-heading h3 {
+		font-size: 19px
+	}
+	.lesun-choose-us-area:before {
+		display: none
+	}
+	.choose-us-wrap {
+		float: none;
+		width: 100%;
+		padding: 0
+	}
+	.single-choose-left {
+		text-align: left
+	}
+	.single-choose-left .choose-icon {
+		float: left;
+		margin-right: 10px;
+		margin-left: 0
+	}
+	.choose-wrap-heading>h2 {
+		font-size: 24px;
+		line-height: 32px
+	}
+	.counter-text {
+		width: 100%
+	}
+	.counter-text>h3 {
+		font-size: 20px;
+		line-height: 30px
+	}
+	.team-slider .owl-next {
+		right: 37%
+	}
+	.team-slider .owl-prev {
+		right: 50%
+	}
+	.lesun-team-area .lesun-site-heading {
+		margin-bottom: 50px
+	}
+	.lesun-faqs-testimonial-area .lesun-site-heading-primary {
+		text-align: center
+	}
+	.margin-top {
+		margin-top: 50px
+	}
+	.subscribe-box>h3 {
+		font-size: 22px
+	}
+	.subscribe-right>form {
+		width: 100%
+	}
+	.subscribe-right>form input {
+		width: 60%
+	}
+	.subscribe-right>form button {
+		width: 38%
+	}
+	.footer-logo img {
+		width: 70%
+	}
+	.breadcromb h2 {
+		font-size: 30px
+	}
+	.lesun-breadcromb-area {
+		background: rgba(0, 0, 0, 0) url("img/breadcromb.jpg") no-repeat scroll -145px 0 / cover;
+	}
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+		font-size: 22px
+	}
+	.about-page-right .popup-youtube {
+		height: 50px;
+		width: 50px;
+		line-height: 50px
+	}
+	.about-page-right .iq-waves {
+		height: 15rem;
+		width: 15rem
+	}
+	.about-page-right .iq-waves .waves {
+		width: 15rem;
+		height: 15rem
+	}
+	.about-page-left>h2 {
+		font-size: 16px
+	}
+	.mission-area-right {
+		display: none
+	}
+	.mission-area-left:before {
+		left: 15px
+	}
+	.mission-box-one:after,
+	.mission-box-two:after,
+	.mission-box-three:after {
+		left: -58px;
+		top: 20px
+	}
+	.header-top-left>p {
+		margin-right: 0;
+        display: block
+	}
+	.single-service-right>h2 {
+		font-size: 24px
+	}
+	.single-service-wrap-left>h3,
+	.tabs.single-service-tab>h3 {
+		font-size: 19px
+	}
+	.single-service-banner {
+		margin-top: 30px
+	}
+	#service_pro>li {
+		float: none;
+		margin: 0 2px 10px;
+	}
+	.panel-body-text {
+		margin-top: 15px
+	}
+	.single-project-image-bg {
+		display: none
+	}
+	.single_project_wrap_left>ul {
+		float: none;
+		width: 100%
+	}
+	.notfound>h2 {
+		font-size: 80px;
+		line-height: 70px
+	}
+	.notfound>h3 {
+		font-size: 20px;
+		margin-top: 20px
+	}
+	.notfound>p {
+		font-size: 14px
+	}
+	.notfound>form {
+		width: 100%
+	}
+	.lesun-faqs-right>form {
+		padding: 20px
+	}
+	.login-box {
+		width: 100%;
+		padding: 0px;
+		box-shadow: 0 0 0
+	}
+	.social-account-login>a {
+		font-size: 12px;
+		padding: 5px 5px 5px 30px
+	}
+	.facebook-login>span,
+	.twitter-login>span,
+	.google-login>span {
+		font-size: 13px;
+		width: 28%
+	}
+	.login-box>form:before,
+	.login-box>form:after {
+		display: none
+	}
+	.single-blog-item-date>h4 {
+		width: 50px;
+		font-size: 15px
+	}
+	.blog-title>p {
+		margin-right: 5px;
+		margin-top: 7px
+	}
+	.lesun-blog-widget>h3 {
+		font-size: 18px
+	}
+	.post-share-left,
+	.post-share-right {
+		text-align: center
+	}
+	.post-share-right>ul {
+		display: inline-block;
+		float: none;
+	}
+	.post-share-right {
+		margin-top: 10px
+	}
+	.single-comment-box.reply-comment {
+		margin-left: 20px
+	}
+	.main-comment {
+		padding: 30px 0 0 80px
+	}
+	.author-image img {
+		width: 60px
+	}
+	.lesun-leave-comment input[type="text"],
+	.lesun-leave-comment input[type="email"] {
+		width: 100%;
+		margin-right: 0
+	}
+	.lesun-leave-comment textarea {
+		width: 100%
+	}
+	.information-left>h2 {
+		font-size: 22px
+	}
+	.single-info-left>h3 {
+		font-size: 16px
+	}
+	.contact-form-box>form {
+		width: 100%
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-top-left {
+		text-align: center
+	}
+	.header-top-social {
+		display: inline-block;
+		float: none;
+	}
+	.header-top-right {
+		text-align: center
+	}
+	.search-form {
+		right: auto;
+		padding: 15px
+	}
+	.search-form>form {
+		height: 30px;
+	}
+	.search-form button {
+		padding: 0 10px
+	}
+	.mainmenu {
+		display: none
+	}
+	.lesun-responsive-menu {
+		display: block
+	}
+	.consultation-btn {
+		display: none
+	}
+	.site-logo img {
+		width: 150px
+	}
+	.menu-span {
+		display: none
+	}
+	.lesun-main-slide {
+		height: 365px
+	}
+	.slider-text {
+		width: 100%
+	}
+	.slider-text h2 {
+		font-size: 24px
+	}
+	.slider-text p,
+	.quote-box>p {
+		font-size: 14px;
+		line-height: 24px
+	}
+	.features-heading>h2 {
+		font-size: 22px;
+		line-height: 30px
+	}
+	.lesun-site-heading>h2,
+	.lesun-site-heading-primary>h2 {
+		font-size: 22px
+	}
+	.home-about-right {
+		margin-top: 30px
+	}
+	.quote-box {
+		width: 100%
+	}
+	.quote-box>h2 {
+		font-size: 26px
+	}
+	.da-thumbs li {
+		width: 100%
+	}
+	.service-heading h3 {
+		font-size: 19px
+	}
+	.lesun-choose-us-area:before {
+		display: none
+	}
+	.choose-us-wrap {
+		float: none;
+		width: 100%;
+		padding: 0
+	}
+	.single-choose-left {
+		text-align: left
+	}
+	.single-choose-left .choose-icon {
+		float: left;
+		margin-right: 10px;
+		margin-left: 0
+	}
+	.choose-wrap-heading>h2 {
+		font-size: 24px;
+		line-height: 32px
+	}
+	.counter-text {
+		width: 100%
+	}
+	.counter-text>h3 {
+		font-size: 20px;
+		line-height: 30px
+	}
+	.team-slider .owl-next {
+		right: 37%
+	}
+	.team-slider .owl-prev {
+		right: 50%
+	}
+	.lesun-team-area .lesun-site-heading {
+		margin-bottom: 50px
+	}
+	.lesun-faqs-testimonial-area .lesun-site-heading-primary {
+		text-align: center
+	}
+	.margin-top {
+		margin-top: 50px
+	}
+	.subscribe-box>h3 {
+		font-size: 22px
+	}
+	.subscribe-right>form {
+		width: 100%
+	}
+	.subscribe-right>form input {
+		width: 60%
+	}
+	.subscribe-right>form button {
+		width: 38%
+	}
+	.footer-logo img {
+		width: 70%
+	}
+	.breadcromb h2 {
+		font-size: 30px
+	}
+	.lesun-breadcromb-area {
+		background: rgba(0, 0, 0, 0) url("img/breadcromb.jpg") no-repeat scroll 0 0 / cover;
+	}
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+		font-size: 22px
+	}
+	.about-page-right .popup-youtube {
+		height: 50px;
+		width: 50px;
+		line-height: 50px
+	}
+	.about-page-right .iq-waves {
+		height: 15rem;
+		width: 15rem
+	}
+	.about-page-right .iq-waves .waves {
+		width: 15rem;
+		height: 15rem
+	}
+	.about-page-left>h2 {
+		font-size: 16px
+	}
+	.mission-area-right {
+		display: none
+	}
+	.mission-area-left:before {
+		left: 15px
+	}
+	.mission-box-one:after,
+	.mission-box-two:after,
+	.mission-box-three:after {
+		left: -58px;
+		top: 20px
+	}
+	.header-top-left>p {
+		margin-right: 0;
+		display: inline-block
+	}
+	.single-service-right>h2 {
+		font-size: 24px
+	}
+	.single-service-wrap-left>h3,
+	.tabs.single-service-tab>h3 {
+		font-size: 19px
+	}
+	.single-service-banner {
+		margin-top: 30px
+	}
+	#service_pro>li {
+		float: none;
+		margin: 0 2px 10px;
+	}
+	.panel-body-text {
+		margin-top: 15px
+	}
+	.single-project-image-bg {
+		display: none
+	}
+	.single_project_wrap_left>ul {
+		float: none;
+		width: 100%
+	}
+	.notfound>h2 {
+		font-size: 80px;
+		line-height: 70px
+	}
+	.notfound>h3 {
+		font-size: 20px;
+		margin-top: 20px
+	}
+	.notfound>p {
+		font-size: 14px
+	}
+	.notfound>form {
+		width: 100%
+	}
+	.lesun-faqs-right>form {
+		padding: 20px
+	}
+	.login-box {
+		width: 100%;
+		padding: 0px;
+		box-shadow: 0 0 0
+	}
+	.social-account-login>a {
+		font-size: 12px;
+		padding: 5px 5px 5px 30px
+	}
+	.facebook-login>span,
+	.twitter-login>span,
+	.google-login>span {
+		font-size: 13px;
+		width: 28%
+	}
+	.login-box>form:before,
+	.login-box>form:after {
+		display: none
+	}
+	.single-blog-item-date>h4 {
+		width: 50px;
+		font-size: 15px
+	}
+	.blog-title>p {
+		margin-right: 5px;
+		margin-top: 7px
+	}
+	.lesun-blog-widget>h3 {
+		font-size: 18px
+	}
+	.post-share-left,
+	.post-share-right {
+		text-align: center
+	}
+	.post-share-right>ul {
+		display: inline-block;
+		float: none;
+	}
+	.post-share-right {
+		margin-top: 10px
+	}
+	.single-comment-box.reply-comment {
+		margin-left: 20px
+	}
+	.main-comment {
+		padding: 30px 0 0 80px
+	}
+	.author-image img {
+		width: 60px
+	}
+	.lesun-leave-comment input[type="text"],
+	.lesun-leave-comment input[type="email"] {
+		width: 100%;
+		margin-right: 0
+	}
+	.lesun-leave-comment textarea {
+		width: 100%
+	}
+	.information-left>h2 {
+		font-size: 22px
+	}
+	.single-info-left>h3 {
+		font-size: 16px
+	}
+	.contact-form-box>form {
+		width: 100%
+	}
+    .da-thumbs div.project_list{
+        float: none
+    }
+}
+

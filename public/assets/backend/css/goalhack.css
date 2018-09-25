@@ -1,0 +1,1281 @@
+    /*
+    =================================================================
+        Toqeer Work
+    =================================================================
+    */
+.red {
+    color: red;
+    font-size: 15px;
+}
+    .invoice-download{
+        background-color: #0C90CE;
+
+        display: block;
+        width: 100%;
+        padding: .25rem 1.5rem;
+        clear: both;
+        font-weight: 400;
+        text-align: inherit;
+        white-space: nowrap;
+        color: #fefefe;
+        border: 0;
+    }
+.badge1 {
+    background-color: #4caf50;
+    border: 1px solid #4caf50;
+    color: #fff;
+}
+
+    .footer {
+
+
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        line-height: 60px; /* Vertically center the text there */
+        background-color: #25628f;
+
+    }
+    #close-button{
+    font-size: 41px;
+    display: block;
+    background-color: white;
+    margin-top: 10px;
+    width: 40px;
+    }
+    .fly-bar{
+        font-size: 18px;
+        color: white;
+    }
+    #canvasMap {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+        padding: 0px
+    }
+    #btnmap:hover{
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+=================================================================
+   Zeeshan Work
+=================================================================
+*/
+
+    #goal_line_chart, #goal_pie_dash_chart, #goal_bar_dash_chart{
+        width : 1200px;
+        height: 550px;
+    }
+    /*#kpi_line_chart, #kpi_pie_dash_chart, #kpi_bar_dash_chart{*/
+        /*width : 1200px;*/
+        /*height: 550px;*/
+    /*}*/
+    #strategy_line_chart, #strategy_pie_dash_chart, #strategy_bar_dash_chart{
+        width : 1200px;
+        height: 550px;
+    }
+    #vision_line_chart, #vision_pie_dash_chart, #vision_bar_dash_chart{
+        width : 1200px;
+        height: 550px;
+    }
+    .card-block .chart{
+        padding: 0px 1px;
+        font-size: 13px;
+    }
+
+    .overview-chart {
+        height: 90px;
+        position: relative;
+    }
+
+    .overview-chart canvas {
+        width: 100%;
+    }
+    .overview-box .icon {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+    }
+
+    .overview-box .icon i {
+        font-size: 60px;
+        color: #fff;
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .overview-box .icon {
+            margin-right: 3px;
+        }
+
+        .overview-box .icon i {
+            font-size: 30px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .overview-box .icon {
+            font-size: 46px;
+        }
+    }
+
+    .overview-box .text {
+        font-weight: 300;
+        display: inline-block;
+    }
+
+    .overview-box .text h2 {
+        font-weight: 300;
+        color: #fff;
+        font-size: 36px;
+        line-height: 1;
+        margin-bottom: 5px;
+    }
+
+    .overview-box .text span {
+        font-size: 18px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+        .overview-box .text {
+            display: inline-block;
+        }
+
+        .overview-box .text h2 {
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+
+        .overview-box .text span {
+            font-size: 14px;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .overview-box .text h2 {
+            font-size: 26px;
+        }
+
+        .overview-box .text span {
+            font-size: 15px;
+        }
+    }
+
+    .overview-item {
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        /*padding: 30px;*/
+        padding-bottom: 0;
+        -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+        -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
+        /*margin-bottom: 40px;*/
+    }
+
+    @media (min-width: 992px) and (max-width: 1519px) {
+        .overview-item {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+
+    .overview-item--c1 {
+        background-image: -moz-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+        background-image: -webkit-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+        background-image: -ms-linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+    }
+
+    .overview-item--c2 {
+        background-image: -moz-linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+        background-image: -webkit-linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+        background-image: -ms-linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+    }
+
+    .overview-item--c3 {
+        background-image: -moz-linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+        background-image: -webkit-linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+        background-image: -ms-linear-gradient(90deg, #ee0979 0%, #ff6a00 100%);
+    }
+
+    .overview-item--c4 {
+        background-image: -moz-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
+        background-image: -webkit-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
+        background-image: -ms-linear-gradient(90deg, #45b649 0%, #dce35b 100%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+   =================================================================
+      Tahira Work
+   =================================================================
+   */
+
+
+    .input-euro {
+        position: relative;
+    }
+    .input-euro.left input {
+        padding-left:5px;
+        border: none;
+    }
+    .input-euro:before {
+        position: absolute;
+        top: 10px;
+        content:"$";
+    }
+    .input-euro.left:before {
+        left: 5px;
+    }
+
+    /*for data entry mode*/
+    #mode
+    {
+        border:1px solid black;
+        width: 95px;
+        height: 25px;
+    }
+    .add-data
+    {
+        width: 80px;
+        height: 25px;
+    }
+    .associated-strategy{
+        /*border: 1px solid black;*/
+        height: 45px;
+        /*width: 400px;*/
+        font-size: 28px;
+        font-family: "Fira Sans", sans-serif;
+    }
+    ul.breadcrumb {
+        /*padding: 10px 16px;*/
+        list-style: none;
+        background-color: #F2F6F9;
+        width:auto;
+        margin-left:auto;
+        margin-right:auto;
+        text-align: center;
+    }
+    ul.breadcrumb li {
+        display: inline;
+        /*font-size: 18px;*/
+        color: #25628f;
+        font-size: 24px;
+        /*font-weight: 20px;*/
+    }
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: #25628f;
+        content: "-->\00a0";
+    }
+    form textarea, form select, .textbox {
+        width: 150px;
+        height: 30px;
+        float: left;
+        line-height: 30px;
+        padding: 0 5px;
+        background-repeat: no-repeat;
+        background-color: #f5fcfe;
+        border: 1px solid #cae9f4;
+        border-radius: 2px;
+        outline: none;
+        margin-top:5px;
+    }
+    .comments
+    {
+        margin-top: 8px;
+        width: 150px;
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+      =================================================================
+         Maria Work
+      =================================================================
+      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+      =================================================================
+         Muneeb Work
+      =================================================================
+      */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

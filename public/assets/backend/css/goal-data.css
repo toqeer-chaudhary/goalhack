@@ -1,0 +1,237 @@
+
+/*for goal-data*/
+html {
+    font-family: sans-serif;
+}
+
+
+button, select {
+    text-transform: none
+}
+
+input {
+    line-height: normal
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td, th {
+    padding: 0
+}
+
+li {
+    list-style: none
+}
+
+
+
+/*table {*/
+/*border-collapse: collapse;*/
+/*border-spacing: 0*/
+/*}*/
+
+hr {
+    display: block;
+    height: 1px;
+    border: none;
+    padding: 0;
+    outline: none
+}
+
+/*table.grid {*/
+/*width: 100%*/
+/*}*/
+
+table.grid tr {
+    color: #000
+}
+
+.kpi-entries-header {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    right: 20px;
+    height: 60px
+}
+
+
+.kpi-entry th {
+    color: #6f737c;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: help;
+    padding: 0 5px
+}
+
+
+.kpi-entry th.actual {
+    background-color: #6fc0ff;
+    color: #fff;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff;
+    border-radius: 2px 2px 0 0;
+    width: 114px
+}
+
+.kpi-entry th.past {
+    background-color: #25628F
+}
+
+.kpi-entry th.future {
+    background-color: #25628F
+}
+
+.kpi-entry td.actual {
+    text-align: center;
+    width: 115px;
+    border-left: solid 1px #fff;
+    border-right: solid 1px #fff
+}
+
+.kpi-entry td.target {
+    width: 115px;
+    text-align: center;
+    background-color: #f8f8f8 !important;
+    border-color: #f8f8f8 !important
+}
+
+.kpi-entry td.today {
+    background-color: #cfeaff !important;
+    border-color: #cfeaff !important
+}
+
+.kpi-entry td > span.actual, .kpi-entry td > span.target, .kpi-entry td > span.comment {
+    display: block;
+    height:35px;
+    padding: 5px 5px 0 5px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: right;
+    color: #6fc0ff;
+    border-radius: 2px
+}
+
+
+.kpi-entry td > span.target {
+    color: #8fd22a
+}
+
+.kpi-entry .calculated > td {
+    background-color: #f7fcff
+}
+
+.kpi-entry .global > td {
+    background-color: #f1fdef
+}
+
+.kpi-entry .single-selector {
+    width: 180px;
+    float: left
+}
+
+
+
+.kpi-entry input.target, .kpi-entry input.actual {
+    background-image: none;
+    border: 1px solid #6fc0ff;
+    border-radius: 2px;
+    padding: 0 5px;
+    margin: 0;
+    text-align: right;
+    width: 150px;
+    height: 40px;
+    line-height: 30px;
+    float: none;
+    margin-top:8px;
+}
+
+.kpi-entry input.target {
+    border: 1px #8fd22a solid
+}
+
+#goals
+{
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius:5px;
+    width: 180px;
+
+}
+#Select-goal
+{
+    margin-left: 70px;
+    font-size: 15px;
+    color: black;
+}
+
+.save-data
+{
+    /*background-color: #94DA2C;*/
+    color: white;
+    /*border: 1px solid;*/
+    border-radius: 5px;
+    display: block;
+    width: 130px;
+    height: 38px;
+    /*background-color: #94da2c;*/
+    padding: 0 16px;
+    margin-top: 15px;
+    margin-left: 900px;
+
+}
+.scroll {
+    /*background-color: #000000;*/
+    width: auto;
+    height: auto;
+    overflow-x: scroll;
+    margin-left: 40px;
+}
+.kpi-entry td {
+    background-color: #f2f6f9;
+    border-bottom: solid 2px #f2f6f9;
+    line-height: 15px;
+    padding: 20px;
+    color: #000;
+    font-size: 13px;
+    text-align: left;
+    vertical-align: middle;
+}
+#target-actual
+{
+    top:159px;
+}
+#target-val
+{   position: absolute;
+    color:#25628F;
+    font-size: 22px;
+    /*margin-top: 10px;*/
+}
+#actual-val
+{   position: absolute;
+    color:#25628F;
+    font-size: 22px;
+    margin-top: 50px;
+}
+#comment-sec
+{   position: absolute;
+    color:#25628F;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
